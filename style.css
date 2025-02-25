@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.bar {
+    display: none
+}
+
+.bar2 {
+    display: none;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+
+}
+
+.box {
+    /* */
+    width: 50%;
+}
+
+.right {
+    background-image: url(Asset0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left nav {
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.left nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;
+    font-size: 13.5px;
+    font-stretch: extra-expanded;
+    font-family: 'SF Pro Display', sans-serif;
+    color: rgb(98, 91, 91);
+}
+
+.left nav ul li:first-child {
+    color: black;
+    font-weight: 600
+}
+
+nav img {
+    width: 5.5vw;
+    padding-left: 3vw;
+}
+
+
+/* MAIN CONTENT section*/
+.content {
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+    width: 75%;
+    margin-top: 12vw;
+    margin-left: 6vw;
+    font-family: sans-serif;
+}
+
+.content1 .head {
+    font-size: 3vw;
+    font-family: poppins, sans-serif;
+}
+
+.content1 .data {
+    font-size: 2vw;
+}
+
+.work {
+    background-color: rgb(28, 28, 254);
+    width: 50%;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    border: none;
+    border-radius: 4px;
+    height: 3.5vw;
+}
+
+.content .content2 {
+    /* */
+    padding: 14vw 0;
+    display: flex;
+    gap: 2vw;
+    width: 75%;
+    margin-left: 6vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2vh;
+}
+
+.content .content2 a {
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+}
+
+
+
+/* ABOUT section */
+.about {
+    display: flex;
+    /* */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2.4vw;
+    color: rgb(47, 47, 187);
+}
+
+.cdn {
+    /* */
+    width: 40%;
+}
+
+.about .data2 {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.data2 .my-img img {
+    height: 25vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+}
+
+.data2 .written p {
+    margin: 2vw 0;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.data2 .written p:first-child {
+    margin-top: 4vw;
+}
+
+
+
+/*SERVICES section*/
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vw;
+    gap: 4vw;
+
+}
+
+.work {
+    background-color: rgb(28, 28, 254);
+    width: 35%;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    border: none;
+    border-radius: 4px;
+    height: 3.5vw;
+}
+
+.services .back {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 4vw;
+
+}
+
+.services .front {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 4vw;
+}
+
+.skill {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.skill .head3 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.skill img {
+    width: 100%;
+    padding: 0 px;
+}
+
+.data3 {
+    display: flex;
+    gap: 2vw;
+}
+
+.data4 {
+    display: flex;
+    gap: 2vw;
+}
+
+.skills p {
+    line-height: 2vw;
+    font-family: poppins;
+}
+
+
+/* CARDS section*/
+.cards {
+    /* */
+    margin-top: 16vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards .cardup {
+    display: flex;
+}
+
+.cards .carddown {
+    display: flex;
+}
+
+.contents {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.card {
+    width: 50%;
+}
+
+.rightly {
+    margin-right: 18vw;
+    margin-left: 5vw;
+}
+
+.left {
+    margin-right: 5vw;
+}
+
+.extra {
+    display: flex;
+}
+
+.extra1 {
+    width: 50%;
+}
+
+.card .head5 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.9vw;
+}
+
+.cont p {
+    margin: 2vw 0;
+    font-family: poppins;
+    font-size: 0.8vw;
+    ;
+}
+
+.cont {
+    margin-bottom: 4vw;
+}
+
+.card .rightly .cont {
+    margin-bottom: 3vw;
+}
+
+.contents .readMore {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.8vw;
+    font-weight: 600
+}
+
+.card1 {
+    background-color: rgb(46, 46, 219);
+    color: white;
+
+}
+
+.card2 .readMore {
+    color: blue;
+}
+
+.card3 .readMore {
+    color: blue;
+}
+
+.card4 {
+    background-color: rgb(36, 40, 49);
+    color: white;
+}
+
+
+/* OPEN SOURCE section */
+.open {
+    display: flex;
+    flex-direction: column;
+    /* */
+    margin-top: 10vw;
+    gap: 3.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.head6 {
+    margin-bottom: 2vw;
+}
+
+.imagesAll {
+    /* */
+    width: 60%;
+    display: flex;
+    gap: 2vw;
+}
+
+.imgAll img {
+    width: 100%;
+    /* */
+    box-shadow: 1px 5px 6px 0.3px rgb(182, 176, 176);
+}
+
+.slider {
+    /* */
+    display: flex;
+    justify-content: center;
+}
+
+.slider img {
+    width: 20%;
+}
+
+
+/* HELP section */
+.help {
+
+    margin: 12vw auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%
+}
+
+.helpBtn {
+    background-color: rgb(28, 28, 254);
+    width: 20%;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    border: none;
+    border-radius: 4px;
+    height: 3.5vw;
+}
+
+.helpText p {
+    font-family: poppins;
+    font-size: 1.2vw;
+    margin: 0.5vw 0;
+}
+
+.helpText p:first-child {
+    color: rgb(56, 56, 199);
+    font-family: poppins;
+    font-size: 1.6vw;
+
+}
+
+
+/* FOOTER section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 8vw auto;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+
+.footText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+
+
+}
+
+.logo {
+    width: 15%;
+
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.footText p:first-child {
+    font-family: poppins;
+    font-size: 1vw;
+    font-weight: 600;
+    color: black;
+}
+
+.footText p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.8vw;
+    color: rgb(91, 90, 90);
+}
+
+footer .content2 {
+    display: flex;
+    gap: 2vw;
+    width: 75%;
+    margin-left: 6vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2vh;
+}
+
+footer .content2 a {
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+}
+
+
+
+/* Responsiveness for 650px --> mainly due to small size of font for proper readability */
+@media (max-width:650px) {
+    button .work {
+        width: 0px;
+    }
+
+    nav ul {
+        visibility: hidden;
+    }
+
+    nav {
+        display: flex;
+
+    }
+
+    nav img {
+        width: 50px;
+        padding-left: 20px;
+    }
+
+    .left .content {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 3px;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        width: 75%;
+        margin-top: 12vw;
+        margin-left: 6vw;
+        font-family: sans-serif;
+
+    }
+
+    .content1 .head {
+        font-size: 25px;
+        font-family: poppins, sans-serif;
+    }
+
+    .content1 .data {
+        font-size: 12px;
+    }
+
+    .work {
+        background-color: rgb(28, 28, 254);
+        width: 100px;
+        color: white;
+        font-family: 'SF Pro Display', sans-serif;
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+    }
+
+    .content .content2 {
+        /* */
+        padding: 14vw 0;
+        display: flex;
+        flex-direction: column;
+        ;
+        gap: 2vw;
+        width: 75%;
+        margin-left: 6vw;
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 2vh;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .back {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .front {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .skills {
+        width: 90%;
+    }
+
+    .skills p {
+        line-height: 20px;
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .skills .head3 {
+        font-size: 20px;
+    }
+
+    .imagesAll {
+        flex-direction: column;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .help {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .helpText p {
+        font-size: 20px;
+    }
+
+    .helpText p:first-child {
+        font-size: 20px;
+    }
+    .foot1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        gap: 20px;
+       
+    }
+
+}
+
+
+/* Responsiveness for ABOUT ME and CARDS section due to their small font sizes to optimise readability */
+@media (max-width:850px) {
+    .data2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work {
+        background-color: rgb(28, 28, 254);
+        width: 110px;
+        color: white;
+        font-family: 'SF Pro Display', sans-serif;
+        border: none;
+        border-radius: 4px;
+        height: 38px;
+    }
+
+    .my-img {
+        margin-right: 16vw;
+    }
+
+    .my-img img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .written {
+        width: 78%;
+    }
+
+
+    .cardup {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carddown {
+        flex-direction: column-reverse;
+    }
+
+    .contents .cont {
+        display: none;
+    }
+
+    .contents {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card .contents .head5 {
+        font-size: 20px;
+
+    }
+
+    .extra .extra1 {
+        display: none;
+    }
+
+    .rightly {
+        margin: 0px;
+
+    }
+
+    .left {
+        margin: 0px;
+    }
+
+    .contents .readMore {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .foot1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        gap: 20px;
+       
+    }
+
+    .foot1 .footText p {
+        font-size: 15px;
+    }
+
+    .foot1 .footText p:first-child {
+        font-size: 20px;
+    }
+
+    nav ul li:nth-child(5) {
+        display: none;
+    }
+}
